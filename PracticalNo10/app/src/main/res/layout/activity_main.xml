@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/download">
+
+    <TextView
+        android:text="Login"
+        android:textStyle="italic"
+        android:layout_marginTop="30dp"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="30sp"
+        android:hint="Enter username"
+        android:backgroundTint="@color/black"
+        android:minHeight="48dp"
+        android:textColorHint="#CDDC39">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="160dp"
+        android:layout_marginRight="30sp"
+        android:hint="Enter password"
+        android:minHeight="48dp"
+        android:password="true"
+        android:textColorHint="#CDDC39">
+
+    </EditText>
+    <TextView
+        android:id="@+id/forg"
+        android:layout_below="@+id/pass"
+        android:text="Forgot Password"
+        android:textStyle="italic"
+        android:textSize="15dp"
+        android:textColor="#971818"
+
+        android:layout_marginRight="40dp"
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <Button
+        android:id="@+id/but1"
+        android:layout_below="@+id/forg"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#7A555555"
+        android:layout_marginLeft="35dp"
+        android:text="         Login          "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Button>
+    <Button
+        android:id="@+id/but2"
+        android:layout_alignParentRight="true"
+        android:backgroundTint="#7A555555"
+        android:layout_below="@+id/forg"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+
+        android:text="         Signup        "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Button>
+    <TextView
+        android:id="@+id/tx11"
+        android:text=""
+        android:layout_below="@+id/but1"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+</RelativeLayout>

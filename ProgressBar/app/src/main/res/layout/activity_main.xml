@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:text="Progress Bar for File Download"
+        android:background="#4600FF  "
+        />
+
+    <Button
+        android:id="@+id/startDownload"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:background="#4600FF"
+        android:text="Download File"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

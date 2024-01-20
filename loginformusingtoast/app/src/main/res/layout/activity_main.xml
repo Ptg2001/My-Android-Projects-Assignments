@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#0C2FEF"
+        android:layout_centerHorizontal="true"/>
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+
+                android:layout_gravity="center"
+                android:text="username"
+                android:textSize="20sp"
+                android:textColor="#FD0303" />
+
+            <EditText
+                android:id="@+id/usernameText"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:hint="enter_username"
+                android:textColor="#E33D09"
+                android:textSize="20sp"
+                android:autofillHints="Username"
+                android:inputType="textPersonName" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:text="password"
+                android:textSize="20sp"
+                android:textColor="#FD0303" />
+
+            <EditText
+                android:id="@+id/passwordText"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:hint="enter_password"
+                android:inputType="textPassword"
+
+                android:textColor="#E33D09"
+                android:textSize="20sp"
+                android:autofillHints="Password" />
+        </TableRow>
+
+        <TableRow
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <Button
+                android:id="@+id/submitBtn"
+                android:layout_marginTop="20dp"
+                android:text="submit"
+                android:onClick="checkCredentials"
+                tools:ignore="UsingOnClickInXml" />
+        </TableRow>
+
+        <TableRow
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="30dp">
+            <TextView
+                android:id="@+id/resultView"
+
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="login_successful"
+                android:textSize="20sp"
+                android:textColor="#1BC321"
+                android:visibility="invisible" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

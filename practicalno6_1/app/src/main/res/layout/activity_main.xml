@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:stretchColumns="*"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:id="@+id/B1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:text="Button 1"
+            android:layout_span="3"
+            android:padding="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></Button>
+    </TableRow>
+    <TableRow
+        android:id="@+id/B2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:text="Button 2"
+            android:layout_width="match_parent"
+            android:padding="25dp"
+            android:layout_height="match_parent"></Button>
+        <Button
+            android:text="Button 3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></Button>
+        <Button
+            android:text="Button 4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></Button>
+    </TableRow>
+    <TableRow
+        android:id="@+id/B3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="195dp"
+            android:layout_height="match_parent"
+            android:layout_span="2"
+            android:padding="40dp"
+
+            android:text="Button 5"></Button>
+
+        <Button
+            android:layout_width="195dp"
+            android:layout_height="match_parent"
+            android:text="Button 6" />
+
+    </TableRow>
+
+</TableLayout>

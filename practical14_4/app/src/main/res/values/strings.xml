@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">practical 14_4</string>
+    <string name="demo_text">
+        Android, operating system for cellular telephones and tablet computers.
+        Android began in 2003 as a project of the American technology company Android Inc.
+        To develop an operating system for digital cameras. In 2004 the project changed to become an operating system for smartphones.
+        Android Inc., was bought by the American search engine company Google Inc., in 2005.
+        At Google, the Android team decided to base their project on Linux, an open source operating system for personal computers.
+        On November 5, 2007, Google announced the founding of the Open Handset Alliance, a consortium of dozens of technology and mobile telephone companies, including Intel Corporation, Motorola, Inc.,
+        NVIDIA Corporation, Texas Instruments Incorporated, LG Electronics, Inc., Samsung Electronics, Sprint Nextel Corporation, and T-Mobile (Deutsche Telekom).
+        The consortium was created in order to develop and promote Android as a free open source operating system with support for third-party applications.
+        Android-based devices use wireless networks in order to take full advantage of features such as one-touch Google searches, Google Docs (e.g., word editors, spreadsheets),
+        and Google Earth (satellite mapping software).
+        Android Studio is the official Android development tool or, to be more precise, an integrated development environment (IDE) built on IntelliJ IDEA.
+        It was first announced in May 2003 at the Google I/O — the annual developer conference held in Mountain View.
+        Android Studio supports various programming languages like Java, Kotlin, C++, or Go to provide vast opportunities for building applications for every type of Android device.
+        The software includes code editing, debugging, and performance tools. Developers can also take advantage of such features as a visual layout editor, APK analyzer, fast emulator,
+        or real-time profilers. Android Studio was designed to help you create high-quality apps, streamlining the entire development process.
+        The Android operating system was first developed by Android, Inc., a software company located in Silicon Valley before Google acquired it in 2005. Investors and electronics industry
+        analysts have questioned Google’s true intentions for entering the mobile market space since that acquisition. But in any case, soon thereafter, Google announced the impending rollout
+        of its first commercially available Android-powered device in 2007, although that product actually hit the marketplace in 2008.
+        Since then, software and application developers have been able to use Android technology to develop mobile apps, which are sold through app stores, such as Google Play.
+        And because it is developed as a Google product, Android users are given the opportunity to link their mobile devices to other Google products, such as cloud storage, email platforms,
+        and video services.
+        The Android source code is released in an open-source format to help advance open standards across mobile devices. However, despite being released as “open,”
+        Android is still packaged with proprietary software when sold on handset devices.
+        The Android operating system is most frequently used on different mobile platforms around the world. It is occupied approximately 75% of shares in the worldwide market by the end of 2020.
+        A company like Open Handset Alliance has developed the first Android that depends on the customized version of the Linux kernel as well as other open-source software.
+        At the initial stage of 2005, Google sponsored the project and it obtained the entire company. In September 2008, the first Android device was released in the market to dominate
+        the mobile industries due to several features like user friendly, the support of the community is huge, customization, manufacturing of android devices in large companies. Consequently,
+        the market examines the demand to develop Android-supported devices with smart developers. So, the Android operating system became a complete set of operating systems for different devices
+        like wearables, mobiles, notebooks, smart TVs, tablets, set-top boxes, etc.
+    </string>
+</resources>

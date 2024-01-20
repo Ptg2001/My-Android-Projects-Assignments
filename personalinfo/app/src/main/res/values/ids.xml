@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="t1" type="id">t1</item>
+    <item name="t2" type="id">t2</item>
+    <item name="e1" type="id">e1</item>
+    <item name="t3" type="id">t3</item>
+    <item name="e2" type="id">e2</item>
+    <item name="t4" type="id">t4</item>
+    <item name="e3" type="id">e3</item>
+    <item name="t5" type="id">t5</item>
+    <item name="e4" type="id">e4</item>
+    <item name="b1" type="id">b1</item>
+    <item name="t6" type="id">t6</item>
+    <item name="t7" type="id">t7</item>
+    <item name="t8" type="id">t8</item>
+    <item name="t9" type="id">t9</item>
+</resources>

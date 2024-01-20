@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AFB42B"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Single Radio Buttons"
+        android:textSize="24sp"
+        android:layout_marginLeft="70sp"
+        android:layout_marginTop="22sp"
+        android:layout_alignParentTop="true"
+        android:textColor="#B50505" />
+
+    <RadioButton
+        android:id="@+id/r1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t1"
+        android:text="Radio Button 1"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <RadioButton
+        android:id="@+id/r2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/r1"
+        android:text="Radio Button 2"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:layout_below="@+id/r2"
+        android:layout_marginTop="8sp"
+        android:background="#0E0D0D"/>
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Radio Button Inside Radio Group"
+        android:textSize="20sp"
+        android:layout_marginLeft="35sp"
+        android:layout_marginTop="20sp"
+        android:layout_below="@+id/r2"
+        android:textColor="#B50505"  />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg1"
+        android:layout_below="@+id/t2"
+        android:layout_marginTop="20sp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/r3"
+            android:text="Male"
+            android:textSize="20sp"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/r4"
+            android:text="Female"
+            android:textSize="20sp"
+            android:textColor="@color/black" />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="162sp"
+        android:layout_height="50sp"
+        android:id="@+id/b1"
+        android:text="Show SELECTED"
+        android:backgroundTint="@color/teal_200"
+        android:layout_marginTop="240sp"
+        android:layout_marginLeft="105sp"
+        android:layout_below="@+id/t2"
+        android:textColor="#212830"
+        android:textSize="14sp"  />
+</RelativeLayout>

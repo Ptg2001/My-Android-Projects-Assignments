@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#422C2C"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="Elective Subject"
+        android:textStyle="italic|bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="@color/teal_700"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:text="Select Language of your Choice"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="#757373"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <CheckBox
+        android:id="@+id/CB1"
+        android:textStyle="italic|bold"
+        android:textSize="17sp"
+        android:textColor="#CDDC39"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Database Management"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/CB2"
+        android:textStyle="italic|bold"
+        android:textColor="#CDDC39"
+        android:textSize="17sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="Cilent Side Scripting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </CheckBox>
+    <CheckBox
+
+        android:id="@+id/CB3"
+        android:textSize="17sp"
+        android:textColor="#CDDC39"
+        android:textStyle="italic|bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="Computer Network"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/CB4"
+        android:textColor="#CDDC39"
+        android:textStyle="italic|bold"
+        android:textSize="17sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="Cloud Computing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/CB5"
+        android:textColor="#CDDC39"
+        android:textStyle="italic|bold"
+        android:textSize="17sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="Emerging trends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </CheckBox>
+    <TextView
+        android:id="@+id/TX1"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text=""
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+</LinearLayout>

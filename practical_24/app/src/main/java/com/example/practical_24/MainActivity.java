@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".BluetoothServiceDemo"
+        android:orientation="vertical">
+<ImageView
+ android:layout_width="100dp"
+         android:layout_height="100dp"
+         android:src="@drawable/bluetooth"
+         android:id="@+id/imageIcon"
+         android:layout_marginTop="50dp"
+         android:layout_gravity="center_horizontal"
+         android:contentDescription="@string/bluetooth_image"
+         android:visibility="invisible"/>
+<Button
+ android:id="@+id/onButton"
+         android:layout_width="135dp"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="30dp"
+         android:text="@string/turn_on"
+         android:onClick="turnOnBluetooth"/>
+<Button
+ android:id="@+id/getVisibleButton"
+         android:layout_width="135dp"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="30dp"
+         android:text="@string/get_visible"
+         android:onClick="getVisibleDevices"/>
+<Button
+ android:id="@+id/listButton"
+         android:layout_width="135dp"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="30dp"
+         android:text="@string/list_devices"
+         android:onClick="listDevices"/>
+<Button
+ android:id="@+id/offButton"
+         android:layout_width="135dp"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="30dp"
+         android:text="@string/turn_off"
+         android:onClick="turnOffBluetooth" />
+<TextView
+ android:id="@+id/textView"
+         android:visibility="invisible"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:text="@string/paired_devices"
+         android:textColor="#EFB405"
+         android:layout_marginTop="40dp"
+         android:textSize="20sp"
+         android:padding="10dp"
+         android:textAlignment="center" />
+<ListView
+ android:id="@+id/listView"
+         android:layout_marginTop="20dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:divider="#171616"
+         android:dividerHeight="1dp"
+         android:textAlignment="center"
+         android:listSelector="#9F9A9A"
+         android:gravity="center_horizontal" />
+</LinearLayout>
